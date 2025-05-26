@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unidad 4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 100px;
+      margin: 10px;
+    }
+
+    header div {
+      flex: 1 1 100%;
+      margin-top: 10px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin: 10px 0 5px 0;
+    }
+
+    header h2 {
+      font-size: 24px;
+      color: #ccc;
+      margin: 0 0 10px 0;
+    }
+
+    .back-button {
+      margin: 20px auto;
+      display: inline-block;
+    }
+
+    .back-button img {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      filter: brightness(0) invert(1); /* blanco para ícono */
+      transition: filter 0.3s;
+    }
+
+    .back-button img:hover {
+      filter: brightness(0) invert(0.6);
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      text-align: justify;
+    }
+
+    .content h4 {
+      font-size: 24px;
+      color: #00ffff;
+      margin-top: 30px;
+    }
+
+    .content h5 {
+      font-size: 20px;
+      color: #00ffff;
+      margin-top: 20px;
+    }
+
+    .content p {
+      margin: 20px 0;
+      line-height: 1.8;
+      font-size: 22px;
+      color: #ddd;
+    }
+
+    .content ol {
+      margin-left: 40px;
+      margin-bottom: 20px;
+      color: #00ffff;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    .content ol li {
+      margin-bottom: 10px;
+    }
+
+    .content img {
+      display: block;
+      margin: 30px auto;
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #00ffff;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+ 
+    <div>
+      <h1>Arquitectura de Computadoras</h1>
+      <h2>Unidad 4</h2>
+    </div>
+  
+  </header>
+
+  <div class="back-button">
+    <a href="index.html" title="Regresar al Menú">
+      <img src="regresar.png" alt="Regresar al Menú" />
+    </a>
+  </div>
+
+  <div class="content">
+    <h4>4.1 Aspectos básicos de la computación paralela</h4>
+    <p>La computación paralela se basa en la idea de dividir un problema en tareas más pequeñas y procesarlas de manera simultánea utilizando múltiples recursos de computación...</p>
+    <img src="Unidad4-1.jpg" alt="Computación paralela">
+
+    <h4>4.2 Tipos de computación paralela</h4>
+    <p>Existen varios tipos de computación paralela que se utilizan en diferentes contextos y escenarios. Algunos de los enfoques más comunes incluyen el procesamiento paralelo a nivel de bit, a nivel de instrucción, a nivel de datos y a nivel de tarea...</p>
+
+    <h4>4.2.1 Clasificación</h4>
+    <p>La clasificación de la computación paralela puede realizarse en función de la forma en que se dividen las tareas y los datos, así como de la forma en que se coordinan y comunican los procesos paralelos...</p>
+
+    <h4>4.2.2 Arquitectura de computadores secuenciales</h4>
+    <p>La arquitectura de computadores secuencial se refiere a los sistemas informáticos tradicionales en los que las instrucciones se ejecutan una tras otra en secuencia...</p>
+
+    <h4>4.2.3 Organización de direcciones de memoria</h4>
+    <p>La organización de direcciones de memoria se refiere a cómo se asignan y acceden a las direcciones de memoria en un sistema de computación paralela...</p>
+
+    <h4>4.3 Sistema de memoria compartida</h4>
+    <p>Los sistemas de memoria compartida son un enfoque de computación paralela en el que múltiples procesadores acceden a una misma área de memoria compartida...</p>
+
+    <h4>4.3.1.1 Redes de medio compartida</h4>
+    <p>Las redes de medio compartida son un tipo de arquitectura de memoria compartida en la que los procesadores se conectan físicamente a un bus compartido o a una red de interconexión...</p>
+
+    <h4>4.3.1.2 Redes conmutadas</h4>
+    <p>Las redes conmutadas, por otro lado, utilizan interruptores o conmutadores para establecer conexiones entre los procesadores y la memoria compartida...</p>
+    <img src="Unidad4-2.png" alt="Redes conmutadas">
+
+    <h4>4.4 Sistemas de memoria construida</h4>
+    <p>Los sistemas de memoria construida son una forma de organización de la memoria en la computación paralela en la que cada procesador tiene su propia memoria local...</p>
+
+    <h4>4.5 Casos de estudio</h4>
+    <p>En el campo de la computación paralela, existen numerosos casos de estudio que han demostrado la eficacia y los beneficios de los enfoques paralelos en diferentes dominios...</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Arquitectura de Computadoras - Unidad 4
+  </footer>
+
+</body>
+</html>
+
